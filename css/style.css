@@ -17,20 +17,20 @@
   padding-top: 20px;
 }
 
-
+/* Control the left side */
 .left {
   left: 0;
   background-color: #111;
 }
 
-
+/* Control the right side */
 .right {
   right: 0;
     padding-top: 5px;
-
+  /*background-color: red;*/
 }
 
-
+/* If you want the content centered horizontally and vertically */
 .centered {
   position: absolute;
   top: 15%;
@@ -51,12 +51,22 @@
   transform: translate(-50%, -50%);
   text-align: center;
 }
-
+/* Style the image inside the centered container, if needed */
 .centered img {
   width: 150px;
   border-radius: 50%;
 }
+        /*.card{*/
+        /*    border:1px solid black;*/
+        /*    border-right: none;*/
+        /*}*/
+        .inner-card{
+            /*border: 1px solid gray;*/
 
+            /*border-right: none;*/
+
+            /*border-left:none*/
+        }
         .card-img{
 
             min-height: 250px;
@@ -84,10 +94,34 @@ padding:10px;
 .login-signup{
     margin: 10px;
 }
-}
+.label_info{
+            font-weight: 400;
+        }
 
+        .text_area_info{
+            margin-left: 50px;
+            padding: 10px;
+            color: blue;
+        }
 
+        .info{
+            color: blue;
+        }
 
+        .btn_bolck{
+        display: block;
+        width: 100%;
+        }
+
+        .img_user{
+            border-radius: 50%;
+            border: black 2px solid;
+        }
+
+    #video_company{
+        width: 100%;
+        height: auto;
+    }
 .all-cards{
     padding-left: 70px;
 }
