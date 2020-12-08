@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+      <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+      <link rel="stylesheet" href="css/bootstrap-grid.min.css" type="text/css">
+      <link rel="stylesheet" href="css/bootstrap-reboot.min.css" type="text/css">
+      <link rel="stylesheet" href="css/style.css" type="text/css">
+
+
+</head>
+<body>
+<div class="split left">
+</div>
+
+<div class="split2 right">
+    <!-- start right -->
+    <div class="body-right">
+
+
+            <section style="margin: 20px;border: black solid 1px;padding: 50px" >
+    <h1 class="head_section" style="text-align: center;text-decoration: underline #ffc107;">Account Settings</h1>
+    <hr class="my-4">
+
+
+
+
+
+
+        <form method="post" action="" enctype="multipart/form-data">
+        <input hidden name="company_settings" type="text">
+        <div class="row">
+            <div class="col-md-6" style="text-align: right">
+        <img style="border-radius: 50%" src="images/microsoft.png" width="200px" height="200px">
+
+            </div>
+            <div class="col-md-6" style="text-align: left;padding-top: 30px;border-left: black 1px solid">
+                <label>Change Company Logo : </label><br><br>
+                <input name="company_logo" type="file"  >
+
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label >CEO Name : </label>
+                    <input value="Bill Gates" name="name" required type="text" class="form-control"  placeholder="Enter CEO name">
+                </div>
+            </div>
+
+        </div>
+
+
+        <br>
+         <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label>Company Name : </label>
+                    <input value="Microsoft" required name="company_name"  type="text" class="form-control"  placeholder="Enter The Company Name">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label>Company Location : </label>
+                    <input value="Redmond. Washington. 98052-6399. USA." required name="company_address" type="text" class="form-control"  placeholder="Enter Company address">
+                </div>
+            </div>
+        </div>
+        <br>
+         <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label>Salary Range from : </label>
+                    <input value="20000" required name="salary_range_from"  type="number" class="form-control"  placeholder="Enter Company Salary Range">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label>Salary Range to : </label>
+                    <input value="100000" required name="salary_range_to"  type="number" class="form-control"  placeholder="Enter Company Salary Range">
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label>Number Of Employees : </label>
+                    <input value="70000"required name="number_of_employees" type="number" class="form-control"  placeholder="Enter Company's employees's number">
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea_about">About The Company :</label>
+                    <textarea required name="about_company" class="form-control" id="exampleFormControlTextarea_about" rows="7">
+                        Microsoft (Nasdaq “MSFT” @microsoft) enables digital transformation for the era of an intelligent cloud and an intelligent edge. Its mission is to empower every person and every organization on the planet to achieve more. Microsoft refers to Microsoft Corp. and its affiliates, including Microsoft Mobile Oy, a subsidiary of Microsoft. Microsoft Mobile Oy develops, manufactures and distributes Nokia X mobile phones and other devices.
+                    </textarea>
+                </div>
+            </div>
+        </div>
+        <label>Edit/Add Video</label>
+
+        <div class="row" style="border: black dashed 2px;padding: 30px">
+            <div class="col-md-12">
+                <div class="custom-file" >
+
+                    <div class="row">
+                        <div class="col-md-6">
+                          <input name="video"  type="file">
+                        </div>
+                        <div class="col-md-6">
+                            <span>The Current Video : </span><a href="videos/microsoft.mp4" > Click to Show Current Video</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <button style="display: block;width: 100%" class="btn btn-warning" type="submit">Save Changes</button>
+
+</form>
+
+    </section>
+
+
+
+
+
+
+
+</div></div>
+
+
+
+
+
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
