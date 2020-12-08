@@ -1,0 +1,100 @@
+.split {
+  height: 100%;
+  width: 25%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.split2 {
+  height: 100%;
+  width: 75%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+
+.left {
+  left: 0;
+  background-color: #111;
+}
+
+
+.right {
+  right: 0;
+    padding-top: 5px;
+
+}
+
+
+.centered {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered2 {
+   top: 93%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.centered3 {
+  top: 93%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+        .card-img{
+
+            min-height: 250px;
+            min-width: 250px;
+            max-height: 400px;
+            max-width: 400px;
+          border: 1px solid black
+        }
+        .img-card{
+
+        }
+.navs{
+    background-color: white;
+    margin: 0;
+    width: 100%;
+}
+.body-right{
+padding: 50px;
+    padding-top: 10px;
+}
+.body-right2{
+padding:10px;
+    padding-top: 10px;
+}
+.login-signup{
+    margin: 10px;
+}
+}
+
+
+
+.all-cards{
+    padding-left: 70px;
+}
+.more{
+    text-decoration: none;
+
+}
+.more:hover{
+    text-decoration: none;
+}
